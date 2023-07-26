@@ -30,7 +30,7 @@ body{
     background: linear-gradient(48deg, rgba(107,70,210,1) 0%, rgba(112,8,133,1) 100%);
     text-decoration: none;
 }
-li{
+a{
     display: inline-block;
     justify-content: space-around;
     margin: 50px;
@@ -50,7 +50,7 @@ li{
     color: #fff;
     font-size: 24px;
     text-decoration: none;
-    z-index: 999;
+    z-index: 100;
     transition: opacity 0.3s;
 }
 
@@ -64,11 +64,35 @@ li{
 h1{
     text-align: center;
     font-size: 50px;
+    margin: 65px;
 }
 p{  
     text-align: center;
-    margin: 100px;
+    margin: 50px;
 }
 img{
     margin: 100px;
+}
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: center;
+}
+  
+.buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: rgba(107,70,210,1) 0%;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(107,70,210,1) 0%;
+    transition: all .4s ease-in-out;
+}
+  
+.buttons a:hover {
+    transform: scale(1.2);
 }
