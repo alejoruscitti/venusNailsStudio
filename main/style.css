@@ -34,7 +34,13 @@ a{
     display: inline-block;
     justify-content: space-around;
     margin: 50px;
+    text-decoration: none;
+    color: black;
 }
+a:hover{
+    color: whitesmoke;
+    transition: all 600ms ease;
+ }
 /*boton  de whatsapp*/
 .whatsappButton {
     position: fixed;
